@@ -7,7 +7,8 @@ const {
   deleteDemo,
 } = require('../controllers/demoController');
 
-// DEMO ROUTES
+// DEMO ROUTES **REPLACE WITH REAL ROUTES**
+
 router.route('/').get(getDemo).post(postDemo);
 /* The chain above is the same thing as:
 router.get('/', getDemo);
