@@ -13,7 +13,8 @@ const connectDB = require('./config/db');
 connectDB();
 
 /* ROUTES -- START */
-app.use('/api/demo', require('./routes/demoRoutes'));
+app.use('/api/demos', require('./routes/demoRoutes'));
+app.use('/api/users', require('./routes/userRoutes'));
 /* ROUTES -- END */
 
 // Middleware to change a bit of how throw Error displays errors
