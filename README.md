@@ -5,6 +5,7 @@
 - BACKEND: NodeJS, Express
 - FRONTEND: ReactJS, JSX, HTML, CSS
 - DATABASE: MongoDB
+- DEPLOYMENT: Designed to be deployed on HEROKU (However this can be changed to any other deployment platform)
 
 ## TO RUN BOILERPLATE:
 
